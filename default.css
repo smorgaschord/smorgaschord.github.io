@@ -1,0 +1,213 @@
+
+/** Simply Fluid css template
+    default gray is #A9A9A9; for slighty darker try #707070 or #606060 */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #606060;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #99CC33;
+
+}
+
+p, ol, ul {
+	line-height: 160%;
+}
+
+a {
+	color: #F47511;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #606060;
+}
+
+hr {
+	border-top: 3px dotted #CCCCCC;
+}
+/** HEADER, LOGO, MENU */
+
+#header {
+	min-width: 780px;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h1 {
+	margin: 0px;
+	font-size: 2.2em;
+}
+
+#logo h2 {
+	margin: 0px;
+	font-size: 1em;
+}
+
+#menu {
+	padding: .2em 0em 1em 2em;
+}
+
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: right;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	margin: 0px 0px 0px 0px;
+	padding: .2em 1em;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #F47511;
+}
+
+#menu span {
+	margin: 0px 0px 0px 0px;
+	padding: .2em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #99CC33;
+}
+
+#menu a:hover {
+	color: #606060;
+}
+
+/** CONTENT */
+
+#content {
+	clear: both;
+	margin: 1em 0px;
+	padding: 1em 0px;
+	border-top: 3px dotted #CCCCCC;
+	min-width: 780px;
+	max-width: 1200px;
+}
+
+#content h2 {
+}
+
+#left {
+	float: left;
+	width: 55%;
+	padding-right: 4%;
+}
+
+#right {
+	float: left;
+	width: 35%;
+	padding-left: 4%;
+	border-left: 1px dashed #CCCCCC;
+}
+
+#fullpage {
+	float: left;
+	width: 95%;
+	padding-right: 4%;
+}
+
+#discography {
+	font-size: smaller;
+}
+
+#discography img {
+	float: right;
+	padding: .2em 1em .6em 1em;
+	
+}
+
+table.sortable thead {
+	font-family: Arial, Helvetica, sans-serif;
+    background-color:#fff;
+	text-align: left;
+	font-size: .8em;
+	text-decoration: underline;
+    color:#F47511;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+table.sortable tbody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #606060;
+}
+
+table.sortable tbody td {
+	border-bottom: 1px dotted #ccc;
+}
+
+#box {
+	padding: 0em .4em .4em .4em;
+	border-top: 1px dashed #CCCCCC;
+	border-right: 1px dashed #CCCCCC;
+	border-left: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+
+/** FOOTER */
+
+#footermenu {
+	padding: .2em 1em .6em 1em;
+}
+
+
+#footermenu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+}
+
+#footermenu li {
+	display: inline;
+}
+
+#footermenu a {
+	margin: 2px 2px 0px 0px;
+	padding: 1em 1em;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: small;
+	color: #F47511;
+}
+
+#footermenu a:hover {
+	color: #606060;
+}
+
+#footer {
+	clear: both;
+}
+
+#footer p {
+	margin: 0px;
+	text-align: center;
+	font-size: smaller;
+	color: #A9A9A9;
+}
+
+
+
